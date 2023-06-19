@@ -32,12 +32,12 @@
             function LudoTimer() {
 
                 const play1 = Math.floor(Math.random() * 6) + 1;
-                const dice_num1 = `./dice${play1}.svg`;
+                const dice_num1 = `image/dice${play1}.svg`;
                 document.getElementById("img1").setAttribute("src", dice_num1);
 
                 const play2 = Math.floor(Math.random() * 6) + 1;
 
-                const dice_num2 = `./dice${play2}.svg`;
+                const dice_num2 = `image/dice${play2}.svg`;
                 document.getElementById("img2").setAttribute("src", dice_num2);
 
                 if (play1 > play2) {
